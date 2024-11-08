@@ -31,7 +31,7 @@ def draw_graph_from_adjacency_matrix(adj_matrix):
 
     for i in range(len(adj_matrix)):
         for j in range(len(adj_matrix[i])):
-            if adj_matrix[i][j] != 0:  # Если есть ребро между i и j
+            if adj_matrix[i][j] != 0:  
                 G.add_edge(i, j, weight=adj_matrix[i][j])
 
 
